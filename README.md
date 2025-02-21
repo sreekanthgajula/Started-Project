@@ -1,70 +1,54 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table role="presentation" class="px-fixed-layout-table" cellpadding="0" cellspacing="0" style="table-layout: fixed; width :713px;" id="">
+						 <tbody><tr>
+						 <th style="height:0px;width:207px">
+						 </th><th style="height:0px;width:506px">
+						 </th></tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'pxIcon','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(1).pyCells(1)'}" class="dataValueRead" style="height:24px;width:207px;overflow:hidden;text-align: center;"><nobr><span><i class="icons" style="width:19px;height:18px;"><img data-test-id="20160309100443068844107" data-ctl="Icon" src="webwb/pzmxgeditor_zoomin_11963313171.png!!.png" tabindex="0" role="link" name="ROLQuickSummary_MapSelectROLResults.pxResults(1)_214" title="Zoom to ROL " alt="Zoom to ROL " data-click="[[&quot;runScript&quot;, [&quot;highlightROL(\&quot;#~MapSelectROLResults.pxResults(1).APPLICATION_NUMBER~#\&quot;)&quot;]]]"></i></span></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxLink','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(1).pyCells(2)'}" class="dataValueRead" style="height:0px;border-color:transparent !important;height:24px;width:506px;overflow:hidden;"></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(2).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443068947561">ROLA/ROL Number</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'HighlightROL','clipboardPath':'.APPLICATION_NUMBER','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(2).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><script> function ViewROL(pzInsKey,ROLNumber,OverrideROLNumber,ROLNumberOverride) { var strparams = ""; if(OverrideROLNumber) { strparams = "ROLNumber:"+ROLNumberOverride; ROLNumber = ROLNumberOverride; } else { if(pzInsKey != "") { strparams ="pzInsKey:"+pzInsKey; } else { strparams = "ROLNumber:"+ROLNumber; } } var tabname = "ROL "+ROLNumber; pega.desktop.showHarness(tabname,"TNSW-FW-OAMFW-Work-RoadOccupancies","ViewROLA","OpenWorkObject",strparams,"",true); } </script>        <a href="javascript:ViewROL('','',true,'530404' )"> <font color="blue"> <u><b>530404</b></u> </font> </a>    </nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(3).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069050885">License Type</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.ACTIVITY_TYPE_DESC','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(3).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="20160309100443069051370">Development</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(4).pyCells(1)'}" class="dataLabelRead" style="height:28px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069153874">Project &amp; Work Description</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextArea','clipboardPath':'.WORK_DESCRIPTION','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(4).pyCells(2)'}" class="dataValueRead" style="height:28px;width:506px;overflow:hidden;vertical-align: top;"><span data-test-id="20160309100443069154337">Test</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(5).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069156267">ROLA/ROL Status</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.ROLA_STATUS_DESC','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(5).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069257509">LICENSED</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(6).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="202405081054550306975">Major Project</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.MajorProject.MAJOR_PROJECT_DESC','className':'TNSW-FW-OAMFW-Int-OAMDB-MajorProject','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(6).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="202405081054550306690"></span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(7).pyCells(1)'}" class="dataLabelRead" style="height:28px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069259331">Proponent - Organisation</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextArea','clipboardPath':'.PROPONENT_ORGANISATION','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(7).pyCells(2)'}" class="dataValueRead" style="height:28px;width:506px;overflow:hidden;vertical-align: top;"><span data-test-id="20160309100443069360530">OPLINC DUMMY ORGANISATION FOR INDIVIDUAL USERS</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(8).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="2016030910044306936241">Proponent - Name</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.Proponent.PROPONENT_NAME','className':'TNSW-FW-OAMFW-Int-OAMDB-Proponent','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(8).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="20160309100443069363883">Andrew Khamlu - TEST USER</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(9).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069465710">Proponent - Phone</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.Contact_Phone','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(9).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="20160309100443069466237">0401102639</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(10).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069568540">Proponent - Email</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.Contact_Email','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(10).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="20160309100443069569918">RAWATSUNIT98RAWATSUNIT98RAWATSUNIT98RAWATSUNIT98@GMAIL.COM</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(11).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="2016030910044306957189">On Site Contact - Name</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.ON_SITE_CONTACT','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(11).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069672478">Akhilesh Singh</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(12).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069674140">On Site Contact - Phone</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.ON_SITE_CONTACT_NUMBER','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(12).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069775173">7579219168</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(13).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069777717">Shift Type</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.ShiftType','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(13).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069778181">Night</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(14).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069880379">Direction</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.DIRECTION_ID','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(14).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069881451">All Directions</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(15).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443069983575">Closure Type</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.CLOSURE_TYPE_CODE','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(15).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443069984870">All lanes one direction</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(16).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443070086680">Subject Road</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.SUBJECT_ROAD','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(16).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><span data-test-id="2016030910044307008738">BONDI RD</span></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(17).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443070189381">Cross Street - From</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextArea','clipboardPath':'.FROM_CROSS_STREET','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(17).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443070190904">COUNCIL ST</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(18).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443070192999">Cross Street - To</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextArea','clipboardPath':'.TO_CROSS_STREET','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(18).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443070293694">CAMPBELL PDE</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(19).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443070295521">Suburb</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.SUBURB','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(19).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443070396430">BONDI JUNCTION</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(20).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="20160309100443070398533">Start Date</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxDateTime','clipboardPath':'.ShiftStartDateTime','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(20).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="20160309100443070399161">25/12/2025 00:00</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(21).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="201603091004430704101529">Finish Date</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'pxDateTime','clipboardPath':'.ShiftEndDateTime','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(21).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr><span data-test-id="201603091004430704102902">31/12/2025 00:30</span></nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(22).pyCells(1)'}" class="dataLabelRead" style="height:23px;width:207px;overflow:hidden;"><nobr><label data-test-id="201605091539190259104189">Exclusion Zone</label></nobr></td><td data-ui-meta="{'type':'Cell','subType':'DisplayYesNo','clipboardPath':'.IsExZone','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(22).pyCells(2)'}" class="dataValueRead" style="height:23px;width:506px;overflow:hidden;"><nobr>      No    </nobr></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(23).pyCells(1)'}" class="dataLabelRead" style="height:0px;border-color:transparent !important;height:23px;width:207px;overflow:hidden;"></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.EzType','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(23).pyCells(2)'}" class="dataValueRead" style="height:0px;border-color:transparent !important;height:23px;width:506px;overflow:hidden;"></td>
+							</tr>
+							<tr><td data-ui-meta="{'type':'Cell','subType':'Label','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(24).pyCells(1)'}" class="dataLabelRead" style="height:0px;border-color:transparent !important;height:23px;width:207px;overflow:hidden;"></td><td data-ui-meta="{'type':'Cell','subType':'pxTextInput','clipboardPath':'.EzDetail','className':'TNSW-FW-OAMFW-Int-OAMDB-RoadOccupancy','pgRef':'.pySections(3).pySectionBody(1).pyTable.pyRows(24).pyCells(2)'}" class="dataValueRead" style="height:0px;border-color:transparent !important;height:23px;width:506px;overflow:hidden;"></td>
+							</tr>
+							</tbody></table>
